@@ -62,6 +62,7 @@ export default class Cats extends React.Component {
   render() {
     return (
       <div>
+        <h1>Котовое</h1>
         {this.state.cats.map((cat, index) => (
           <div className="cat-container">
             <img className="cat-avatar" src="cat.jpg" alt="avatar"></img>

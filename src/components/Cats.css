@@ -1,6 +1,6 @@
 .cat-avatar {
-  height: 150px;
-  width: 150px;
+  max-width: 150px;
+  max-height: 150px;
 }
 .cat-container {
   display: inline-block;
@@ -45,4 +45,7 @@ input {
 }
 .hide {
   display: none;
+}
+h1 {
+  margin-left: 25px;
 }
