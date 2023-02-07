@@ -83,15 +83,15 @@ export default class Cats extends React.Component {
         <div className="form-container">
           <label>
             Введите имя нового кота
-            <input id="input-name"></input>
+            <input id="input-name" maxlength="10"></input>
           </label>
           <label>
             Введите цвет нового кота
-            <input id="input-color"></input>
+            <input id="input-color" maxlength="10"></input>
           </label>
           <label>
             Введите год рождения нового кота
-            <input id="input-yob"></input>
+            <input id="input-yob" maxlength="4"></input>
           </label>
           <label>
             Нравится ли вам этот кот?
