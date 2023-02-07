@@ -1,0 +1,47 @@
+.cat-avatar {
+  height: 150px;
+  width: 150px;
+}
+.cat-container {
+  display: inline-block;
+  height: 324px;
+  margin: 5px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+}
+.add-cat-button {
+  margin-top: 5px;
+}
+.form-container {
+  margin-left: 10px;
+}
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  margin: 5px;
+}
+.input-like-checkbox {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+.liked {
+  display: inline-block;
+  margin: 0;
+  margin-left: 40px;
+}
+.like-filter {
+  margin-left: 200px;
+}
+.like-filter_all {
+  margin-left: 10px;
+}
+.hide {
+  display: none;
+}
